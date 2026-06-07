@@ -45,4 +45,6 @@ skills:
     use: "@tanstack/router-core#router-core/type-safety"
   - when: "TanStack Router bundler plugin for route generation and automatic code splitting. Supports Vite, Webpack, Rspack, and esbuild. Configures autoCodeSplitting, routesDirectory, target framework, and code split groupings."
     use: "@tanstack/router-plugin#router-plugin"
+  - when: "Programmatic route tree building as an alternative to filesystem conventions: rootRoute, index, route, layout, physical, defineVirtualSubtreeConfig. Use with TanStack Router plugin's virtualRouteConfig option."
+    use: "@tanstack/virtual-file-routes#virtual-file-routes"
 <!-- intent-skills:end -->

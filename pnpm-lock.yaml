@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@tailwindcss/typography':
         specifier: ^0.5.16
-        version: 0.5.19(tailwindcss@4.3.0)
+        version: 0.5.20(tailwindcss@4.3.0)
       '@tanstack/devtools-vite':
         specifier: latest
         version: 0.7.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(vite@8.0.16(@types/node@22.19.20)(jiti@2.7.0))
@@ -625,10 +625,10 @@ packages:
     resolution: {integrity: sha512-F7HZGBeN9I0/AuuJS5PwcD8xayx5ri5GhjYUDBEVYUkexyA/giwbDNjRVrxSezE3T250OU2K/wp/ltWx3UOefg==}
     engines: {node: '>= 20'}
 
-  '@tailwindcss/typography@0.5.19':
-    resolution: {integrity: sha512-w31dd8HOx3k9vPtcQh5QHP9GwKcgbMp87j58qi6xgiBnFFtKEAgCWnDw4qUT8aHwkCp8bKvb/KGKWWHedP0AAg==}
+  '@tailwindcss/typography@0.5.20':
+    resolution: {integrity: sha512-hwbzQuNUfcPvbegQFatVPl/MY/tcM9KLl963hQ5laJKPh81TEZ1+dNG9PirGvcaDBkp+BCshExAyKVPW91dozw==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
+      tailwindcss: '>=3.0.0 || >=4.0.0 || insiders'
 
   '@tailwindcss/vite@4.3.0':
     resolution: {integrity: sha512-t6J3OrB5Fc0ExuhohouH0fWUGMYL6PTLhW+E7zIk/pdbnJARZDCwjBznFnkh5ynRnIRSI4YjtTH0t6USjJISrw==}
@@ -1081,8 +1081,8 @@ packages:
   dom-accessibility-api@0.5.16:
     resolution: {integrity: sha512-X7BJ2yElsnOJ30pZF4uIIDfBEVgF4XEBxL9Bxhy6dnrm5hkzqmsWHGTiHqRiITNhMyFLyAiWndIJP7Z1NTteDg==}
 
-  electron-to-chromium@1.5.368:
-    resolution: {integrity: sha512-7RckJJK4uESJF9PxvfMWd3TGqIiieUTG4HxnKaKuIpGbcr+r2ZEB3g2gAhCP3Fqm42vJSzLfgab9eva/C4/XVw==}
+  electron-to-chromium@1.5.369:
+    resolution: {integrity: sha512-XM22K9FNaaCOvMMrBn1caIc8v0g6+pKt660ZbfQqUZvfil0hEzr8ZoiY7VcSLGM3L/x3rz5PqZrk+bKOOmVM9w==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1174,8 +1174,8 @@ packages:
   is-potential-custom-element-name@1.0.1:
     resolution: {integrity: sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==}
 
-  isbot@5.1.41:
-    resolution: {integrity: sha512-9WFV/Vhh0FEj6CQ7MoHweEL9/vLKPjeoD2I2htbAjX7kbW7VJs3OCpWOVyd+JraNTWVU6/DRx2MZy2KaUNXHcg==}
+  isbot@5.1.42:
+    resolution: {integrity: sha512-/SXsVh7KpPRISrD4ffrGSxnTLlUBzEQUfWIusaJPrpJ93FW1P0YEZri5vAUkFsA0m2HRUhQRQadk2wJ+EeKowQ==}
     engines: {node: '>=18'}
 
   jiti@2.7.0:
@@ -2126,7 +2126,7 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.3.0
       '@tailwindcss/oxide-win32-x64-msvc': 4.3.0
 
-  '@tailwindcss/typography@0.5.19(tailwindcss@4.3.0)':
+  '@tailwindcss/typography@0.5.20(tailwindcss@4.3.0)':
     dependencies:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.3.0
@@ -2241,7 +2241,7 @@ snapshots:
       '@tanstack/history': 1.162.0
       '@tanstack/react-store': 0.9.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/router-core': 1.171.13
-      isbot: 5.1.41
+      isbot: 5.1.42
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 
@@ -2579,7 +2579,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.34
       caniuse-lite: 1.0.30001797
-      electron-to-chromium: 1.5.368
+      electron-to-chromium: 1.5.369
       node-releases: 2.0.47
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
@@ -2650,7 +2650,7 @@ snapshots:
 
   dom-accessibility-api@0.5.16: {}
 
-  electron-to-chromium@1.5.368: {}
+  electron-to-chromium@1.5.369: {}
 
   emoji-regex@8.0.0: {}
 
@@ -2721,7 +2721,7 @@ snapshots:
 
   is-potential-custom-element-name@1.0.1: {}
 
-  isbot@5.1.41: {}
+  isbot@5.1.42: {}
 
   jiti@2.7.0: {}
 

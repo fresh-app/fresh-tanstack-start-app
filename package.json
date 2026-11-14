@@ -7,24 +7,23 @@
   },
   "scripts": {
     "dev": "vite dev --port 3000",
-    "generate-routes": "tsr generate",
+    "generate-routes": "vite build",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
-    "@tanstack/react-devtools": "0.10.13",
-    "@tanstack/react-router": "1.170.45",
-    "@tanstack/react-router-devtools": "1.167.2",
-    "@tanstack/react-start": "1.169.3",
+    "@tanstack/react-devtools": "0.10.14",
+    "@tanstack/react-router": "1.170.46",
+    "@tanstack/react-router-devtools": "1.167.3",
+    "@tanstack/react-start": "1.169.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
-    "@tanstack/devtools-vite": "0.8.5",
-    "@tanstack/router-cli": "^1.132.0",
+    "@tanstack/devtools-vite": "0.8.6",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
@@ -38,5 +37,5 @@
       "lightningcss"
     ]
   },
-  "packageManager": "pnpm@12.14.0+sha512.c18ba6d87993d3d164cb5e8948f32b2c06ee854487e06cd8d86781342fb3e5bb4634367034711e86802baa9c37bea906ce1929ad08d70884c97d801df13389a6"
+  "packageManager": "pnpm@12.18.0+sha512.9d7882d5dc82147ecfc4e062aa34834e0ad0296710a1837a1115ae012127d36b7109e321ac1598a1dd0a65597681b1e99917e12ed0d749eae91187943363beb3"
 }

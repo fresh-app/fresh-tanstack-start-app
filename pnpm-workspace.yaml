@@ -1,5 +1,14 @@
 allowBuilds:
   esbuild: true
   lightningcss: true
+minimumReleaseAgeExclude:
+  - '@tanstack/devtools-vite@0.8.7'
+  - '@tanstack/devtools@0.17.0'
+  - '@tanstack/react-devtools@0.10.15'
+  - '@tanstack/react-router-devtools@1.167.4'
+  - '@tanstack/react-start-rsc@0.1.68'
+  - '@tanstack/react-start@1.169.7'
+  - '@tanstack/router-devtools-core@1.168.4'
+  - '@tanstack/start-plugin-core@1.172.0'
 packages:
   - .
